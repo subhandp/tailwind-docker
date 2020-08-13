@@ -1,15 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+
+    <title>Minimal Resume Template</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" type="text/css" href="./assets/tailwind.style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world</title>
-    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body>
-    <p>Hello World</p>
+<body class="text-base bg-white text-resume leading-none ">
+    <!-- mt-16 = margin top (50-60) -->
+    <!-- mt-6 = margin-top 10-11 -->
+    <!-- leading-10 = line hight 2.5rem -->
+    <div class="container max-w-screen-lg h-auto my-16 mr-auto ml-auto">
+        <div class="hero my-12 mr-auto ml-auto relative">
+            <h1 class="name text-6xl font-light inline-block"><span class="font-bold">Subhan</span> Dinda Putra</h1>
+            <span class="job-title align-top text-bgJob text-colorJob bg-blue-100 font-semibold mt-1 ml-5 rounded-lg inline-block py-4 px-6">Developer green</span>
+            <span class="email block text-2xl font-light text-colorEmail mt-6"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5130333338347f332330353d342811363c30383d7f323e3c"># Subhan.dinda.putra@gmail.com # github.com/subhandp</a></span>
+
+            <h2 class="lead font-light mt-16 leading-normal  text-5xl">Development and design of web applications, hardworking and absolutely green</h2>
+        </div>
+    </div>
+
+    <!-- Skills and intrest section -->
+    <div class="container max-w-screen-lg h-auto my-16 mr-auto ml-auto p-4">
+        <!-- 49.7% belum dapat -->
+        <div class="sections align-top inline-block w-3/6">
+            <h2 class="section-title text-xl font-semibold mb-4">Skills</h2>
+
+            <div class="list-card my-10 mx-0">
+                <span class="exp inline-block align-top mr-4 text-colorJob font-semibold w-24 text-2xl">+ 4 years</span>
+                <div class="inline-block align-top w-3/4">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Studying</h3>
+                    <span>Informatics Engineering</span>
+                </div>
+            </div>
+
+            <div class="list-card my-10 mx-0">
+                <span class="exp inline-block align-top mr-4 text-colorJob font-semibold w-24 text-2xl">+ 2 years</span>
+                <div class="inline-block align-top w-3/4 ">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Programming</h3>
+                    <span>PHP, Jquery, and other old tech</span>
+                </div>
+            </div>
+
+            <div class="list-card my-10 mx-0 ">
+                <span class="exp inline-block align-top mr-4 text-colorJob font-semibold w-24  text-2xl">+ 6 years</span>
+                <div class="inline-block align-top w-3/4">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Linux</h3>
+                    <span class="text-base text-gray-500 leading-5">Scripting</span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="sections  align-top inline-block w-3/6 h-12">
+            <h2 class="section-title text-xl font-semibold mb-4">Interests</h2>
+
+            <div class="list-card  my-10 mx-0 ">
+                <div class="inline-block align-top w-3/4">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Scripting languages</h3>
+                    <span class="text-base text-gray-500 leading-5">PHP, JS, Bash, Python</span>
+                </div>
+            </div>
+
+            <div class="list-card  my-10 mx-0 ">
+                <div class="inline-block align-top w-3/4">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Hacking</h3>
+                    <span class="text-base text-gray-500 leading-5">Linux, Crawlers, Bots, Network</span>
+                </div>
+            </div>
+
+            <div class="list-card  my-10 mx-0 ">
+                <div class="inline-block align-top w-3/4">
+                    <h3 class="text-2xl font-semibold text-indigo-700 leading-7 m-2">Design</h3>
+                    <span class="text-base text-gray-500 leading-5">CSS, HTML, Photoshop</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Achievements -->
+
+    <div class="container cards max-w-screen-lg h-auto my-16 mr-auto ml-auto p-4 max-w-6xl block mt-64">
+        <!-- w-3/6 h-48 inline-block align-top rounded-lg text-center p-12 my-2 mx-1 -->
+        <div class="card  w-5/12  h-48 inline-block align-top  rounded-lg text-center  my-2 mx-1 bg-gray-100  ">
+            <div class="skill-level inline-block max-w-xs ">
+                <span class="text-4xl font-light align-top">+</span>
+                <h2 class="text-6xl font-light inline-block align-top tracking-tight">3</h2>
+            </div>
+
+            <div class="skill-meta  align-top inline-block text-left mt-4 ml-4 max-w-xs">
+                <h3 class="text-lg font-extrabold m-1">Projects</h3>
+                <span class="leading-5 text-base">Goverment projects</span>
+            </div>
+        </div>
+
+        <div class="card  w-5/12 h-48 inline-block align-top  rounded-lg text-center  my-2 mx-1 bg-gray-100 ">
+            <div class="skill-level inline-block max-w-xs ">
+                <span class="text-4xl font-light align-top">%</span>
+                <h2 class="text-6xl font-light inline-block align-top tracking-tight">100</h2>
+            </div>
+
+            <div class="skill-meta  align-top inline-block text-left mt-4 ml-4 max-w-xs">
+                <h3 class="text-lg font-extrabold m-1">Projects</h3>
+                <span class="leading-5 text-base">Codeigniter,Jquery</span>
+            </div>
+        </div>
+
+        <div class="card  w-5/12 h-48 inline-block align-top  rounded-lg text-center  my-2 mx-1 bg-gray-100 ">
+            <div class="skill-level inline-block max-w-xs ">
+                <span class="text-4xl font-light align-top">%</span>
+                <h2 class="text-6xl font-light inline-block align-top tracking-tight">100</h2>
+            </div>
+
+            <div class="skill-meta  align-top inline-block text-left mt-4 ml-4 max-w-xs">
+                <h3 class="text-lg font-extrabold m-1">Fullstack</h3>
+                <span class="leading-5 text-base">green</span>
+            </div>
+        </div>
+
+        <div class="card  w-5/12 h-48 inline-block align-top  rounded-lg text-center  my-2 mx-1 bg-gray-100 ">
+            <div class="skill-level inline-block max-w-xs ">
+                <span class="text-4xl font-light align-top">%</span>
+                <h2 class="text-6xl font-light inline-block align-top tracking-tight">100</h2>
+            </div>
+
+            <div class="skill-meta  align-top inline-block text-left mt-4 ml-4 max-w-xs">
+                <h3 class="text-lg font-extrabold m-1">Learning</h3>
+                <span class="leading-5 text-base">green</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Timeeline -->
+
+    <div class="container max-w-screen-lg h-auto my-16 mr-auto ml-auto p-4">
+        <ol class="timeline relative block my-24 mx-0 h-1 list-none">
+            <li class="relative inline-block float-left w-1/4 h-16">
+                <p class="line absolute font-semibold text-xl">Experiences</p>
+                <span class="point block absolute bg-blue-500"></span>
+                <p class="description ">
+                    Lead Developer @Geronimo
+                </p>
+                <span class="date ">Today - Apr. 2016</span>
+            </li>
+
+            <li class="relative inline-block float-left w-1/4 h-16">
+                <span class="point block absolute bg-blue-500"></span>
+                <p class="description ">
+                    Lead Developer @Geronimo
+                </p>
+                <span class="date ">Today - Apr. 2016</span>
+            </li>
+
+            <li class="relative inline-block float-left w-1/4 h-16">
+                <p class="line absolute font-semibold text-xl">Experiences</p>
+                <span class="point block absolute bg-blue-500"></span>
+                <p class="description ">
+                    Lead Developer @Geronimo
+                </p>
+                <span class="date ">Today - Apr. 2016</span>
+            </li>
+
+            <li class="relative inline-block float-left w-1/4 h-16">
+                <span class="point block absolute bg-blue-500"></span>
+                <p class="description ">
+                    Lead Developer @Geronimo
+                </p>
+                <span class="date ">Today - Apr. 2016</span>
+            </li>
+        </ol>
+
+    </div>
+
+
+    <br><br>
+
+
+
+
 </body>
 
 </html>
