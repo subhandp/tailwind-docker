@@ -1,13 +1,9 @@
-FROM node:current-slim
+FROM node:alpine
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
 COPY package.json .
 
 RUN npm install
-
-# EXPOSE 8080
-
-# CMD [ "npm", "start" ]
 
 COPY . .
